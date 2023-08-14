@@ -1,27 +1,69 @@
-# TesteFrontendTurn2c
+## 🚀 Turn2C Code Challenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+## 🧠 Contexto
 
-## Development server
+- 🔗 Link Documentaçãp
+- ✨ Funcionalidades
+- 🎯 Requesitos Mínimos
+- 🛠️ Tecnologias Utilizadas
+- ⚙️ Como rodar o projeto localmente
+- 🔃 Rotas
+- 👨‍💻 Desenvolvedor
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🔗 Link Documentação
 
-## Code scaffolding
+- [Postman](https://documenter.getpostman.com/view/5578104/2s935hRnak)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## ✨ Funcionalidades
 
-## Build
+Listagem de 8 Cachorros aleatórios
+Filtrando os cards a partir da raça do cachorro
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## 🎯 Requisitos Mínimos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Listagem de 8 Cachorros aleatórios
+- Filtrando os cards a partir da raça do cachorro.
 
-## Running end-to-end tests
+## 🛠️ Tecnologias utilizadas nesse projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 
-## Further help
+- [Angular](https://angular.io/docs)
+- [Git/Github](https://github.com/)
+- [Vscode](https://code.visualstudio.com/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## ⚙️ Como rodar o projeto localmente
+
+Siga os passos e inclua as informações abaixo:
+
+| Passo                   | Comando/informação |
+| ----------------------- | ------------------ |
+| Faça o fork             | `botão de forkar`  |
+| Faça o clone            | `git clone`        |
+| Instale as dependências | `npm i`            |
+| Rode o projeto          | `ng serve`          |
+
+## 🔃 Rotas:
+
+| Endpoint          | Descrição                   |
+| ----------------- | --------------------------- |
+| `/`               | Home Page                   |
+
+## ‍💻 Desenvolvedor
+
+<table>
+  <tr>  
+    <td text-align="center"><a href="https://github.com/natashagomesr"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/98358842?v=4" width="100px;" alt=""/>
+    <br /><sub><b>Natasha Gomes</b>
+    <br></sub></a><br /> <a href="https://www.linkedin.com/in/natasha-gomes-r/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>    
+  </tr>
+  
+</table>
+
+<h2>
+  <a href='#top'>🔝 Voltar para o topo.</a>
+</h2>
+
+<br>
+
