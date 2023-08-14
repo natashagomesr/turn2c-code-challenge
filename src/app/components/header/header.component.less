@@ -1,0 +1,69 @@
+@header-bg-color: #fff;
+@header-text-color: black;
+@filter-bg-color: #DDDDDD;
+@filter-text-color: black;
+@cart-button-bg-color: #e74c3c;
+@profile-button-bg-color: #3498db;
+
+.header {
+  background-color: @header-bg-color;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  &__filter {
+    display: flex;
+    align-items: center;
+
+    span {
+      color: black;
+      margin-right: 10px;
+    }
+
+    select {
+      background-color: @filter-bg-color;
+      color: @filter-text-color;
+      border: none;
+      padding: 5px;
+      border-radius: 5px;
+
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+
+    &__cart-button {
+      background-color: @cart-button-bg-color;
+      color: @header-text-color;
+      border: none;
+      padding: 5px 10px;
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+
+      img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+      }
+
+      .badge {
+        background-color: @header-text-color;
+        color: @cart-button-bg-color;
+        border-radius: 50%;
+        padding: 3px 6px;
+        font-size: 12px;
+      }
+    }
+
+    &__profile-button {
+      background-color: @profile-button-bg-color;
+      color: @header-text-color;
+      border: none;
+      padding: 5px 10px;
+    }
+  }
+}

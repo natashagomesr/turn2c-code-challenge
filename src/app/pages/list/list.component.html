@@ -1,0 +1,14 @@
+<app-header [breedsList]="breeds" [onBreedChange]="onBreedChange"></app-header>
+
+<div class="cards-container">
+  <div *ngFor="let dog of dogs">
+    <app-card
+      [imgUrl]="dog.url"
+      [title]="dog.breeds[0].name"
+      [subTitle]="dog.breeds[0].life_span"
+    >
+    </app-card>
+  </div>
+</div>
+
+<app-pagination></app-pagination>
